@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_88ad1e3590774b14a8b2eb8c83d1e20a {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_88ad1e3590774b14a8b2eb8c83d1e20a" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_88ad1e3590774b14a8b2eb8c83d1e20a = L.map(
+                                  'map_88ad1e3590774b14a8b2eb8c83d1e20a',
+                                  {center: [0,0],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_8491514c0edd4a43a0393ebb239351c9 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_88ad1e3590774b14a8b2eb8c83d1e20a);
+        
+    
+            var feature_group_7957f52c648c4b63a0f4455f7257a8b6 = L.featureGroup(
+                ).addTo(map_88ad1e3590774b14a8b2eb8c83d1e20a);
+        
+    
+
+            var marker_05375f4660c946c7b0260cd064bf4f05 = L.marker(
+                [49.84441000000004,24.02543000000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_dae6d254b5f94108ba8f6faf2c83281e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_05375f4660c946c7b0260cd064bf4f05.setIcon(icon_dae6d254b5f94108ba8f6faf2c83281e);
+            
+    
+            var popup_412ef67a3a0f45928a8970141cc6868a = L.popup({maxWidth: '300'});
+
+            
+                var html_1affff53fe1d44e5a0ac144d7a6ba2b6 = $('<div id="html_1affff53fe1d44e5a0ac144d7a6ba2b6" style="width: 100.0%; height: 100.0%;">Solomiia Khrushch</div>')[0];
+                popup_412ef67a3a0f45928a8970141cc6868a.setContent(html_1affff53fe1d44e5a0ac144d7a6ba2b6);
+            
+
+            marker_05375f4660c946c7b0260cd064bf4f05.bindPopup(popup_412ef67a3a0f45928a8970141cc6868a);
+
+            
+        
+    
+
+            var marker_f9ca86d38ef849f1b60a93fb6b61dae1 = L.marker(
+                [13.81154036837114,100.05748685340671],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_28b452f7e9794c3a807f5ae62b5395e7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9ca86d38ef849f1b60a93fb6b61dae1.setIcon(icon_28b452f7e9794c3a807f5ae62b5395e7);
+            
+    
+            var popup_58c921ba211c4dc0b55acb7268f045a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_861d62fde31c460fae8b2be451764cb9 = $('<div id="html_861d62fde31c460fae8b2be451764cb9" style="width: 100.0%; height: 100.0%;">I Am Devloper</div>')[0];
+                popup_58c921ba211c4dc0b55acb7268f045a4.setContent(html_861d62fde31c460fae8b2be451764cb9);
+            
+
+            marker_f9ca86d38ef849f1b60a93fb6b61dae1.bindPopup(popup_58c921ba211c4dc0b55acb7268f045a4);
+
+            
+        
+    
+
+            var marker_86621747d1dc4f26b15948e423424f97 = L.marker(
+                [49.02689837500003,31.374926053000024],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_49f3c24794c3463795a53a9f631647a9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_86621747d1dc4f26b15948e423424f97.setIcon(icon_49f3c24794c3463795a53a9f631647a9);
+            
+    
+            var popup_0a08d128ec4b438aab68308c4a10b686 = L.popup({maxWidth: '300'});
+
+            
+                var html_2cb266ac4297411cb6cc7f13f6048468 = $('<div id="html_2cb266ac4297411cb6cc7f13f6048468" style="width: 100.0%; height: 100.0%;">Dariya</div>')[0];
+                popup_0a08d128ec4b438aab68308c4a10b686.setContent(html_2cb266ac4297411cb6cc7f13f6048468);
+            
+
+            marker_86621747d1dc4f26b15948e423424f97.bindPopup(popup_0a08d128ec4b438aab68308c4a10b686);
+
+            
+        
+    
+
+            var marker_cb8fa6ce8fb444289a1e95669f7d69e9 = L.marker(
+                [40.71455000000003,-74.00713999999994],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_47b4b43e4af7463caf66bda4a187b392 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cb8fa6ce8fb444289a1e95669f7d69e9.setIcon(icon_47b4b43e4af7463caf66bda4a187b392);
+            
+    
+            var popup_02f58fdcd2f64cab927660a0a247a67e = L.popup({maxWidth: '300'});
+
+            
+                var html_8713d7c2c99e429088596884fad9c0a4 = $('<div id="html_8713d7c2c99e429088596884fad9c0a4" style="width: 100.0%; height: 100.0%;">New Yorker Live</div>')[0];
+                popup_02f58fdcd2f64cab927660a0a247a67e.setContent(html_8713d7c2c99e429088596884fad9c0a4);
+            
+
+            marker_cb8fa6ce8fb444289a1e95669f7d69e9.bindPopup(popup_02f58fdcd2f64cab927660a0a247a67e);
+
+            
+        
+    
+
+            var marker_730a4d7429d4450abf53c1f880c5f9dc = L.marker(
+                [40.69787000000008,-80.01198999999997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_d58afa1ea0dc47dea8ef4eaf0b91c61d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_730a4d7429d4450abf53c1f880c5f9dc.setIcon(icon_d58afa1ea0dc47dea8ef4eaf0b91c61d);
+            
+    
+            var popup_a324132d6bbe4f618a1022d4113588dd = L.popup({maxWidth: '300'});
+
+            
+                var html_a78ac069b2e9415b818794e529ed7918 = $('<div id="html_a78ac069b2e9415b818794e529ed7918" style="width: 100.0%; height: 100.0%;">Starman - чувак з Тесли</div>')[0];
+                popup_a324132d6bbe4f618a1022d4113588dd.setContent(html_a78ac069b2e9415b818794e529ed7918);
+            
+
+            marker_730a4d7429d4450abf53c1f880c5f9dc.bindPopup(popup_a324132d6bbe4f618a1022d4113588dd);
+
+            
+        
+    
+
+            var marker_2029a97ac66543dd95640f056d1b31c0 = L.marker(
+                [49.83826000000005,24.023240000000044],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_01efc8540c334e7ab5c16d468b31278d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2029a97ac66543dd95640f056d1b31c0.setIcon(icon_01efc8540c334e7ab5c16d468b31278d);
+            
+    
+            var popup_dfaf61d81d7e487d88b596957641e45f = L.popup({maxWidth: '300'});
+
+            
+                var html_2ef5b6343ce347abb74929c6c1f16bfe = $('<div id="html_2ef5b6343ce347abb74929c6c1f16bfe" style="width: 100.0%; height: 100.0%;">шрьодінгер кота</div>')[0];
+                popup_dfaf61d81d7e487d88b596957641e45f.setContent(html_2ef5b6343ce347abb74929c6c1f16bfe);
+            
+
+            marker_2029a97ac66543dd95640f056d1b31c0.bindPopup(popup_dfaf61d81d7e487d88b596957641e45f);
+
+            
+        
+    
+
+            var marker_4ace07b13d7a4fffa6ebda5c76b23ee6 = L.marker(
+                [49.00967000000003,33.629270000000076],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_1d2487e0a1734e90bb567154ebd1098e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ace07b13d7a4fffa6ebda5c76b23ee6.setIcon(icon_1d2487e0a1734e90bb567154ebd1098e);
+            
+    
+            var popup_cdc2da80ef484bd883762ceeaa2ac01c = L.popup({maxWidth: '300'});
+
+            
+                var html_0f3d880be78042f097d10a858c7b57d9 = $('<div id="html_0f3d880be78042f097d10a858c7b57d9" style="width: 100.0%; height: 100.0%;">март</div>')[0];
+                popup_cdc2da80ef484bd883762ceeaa2ac01c.setContent(html_0f3d880be78042f097d10a858c7b57d9);
+            
+
+            marker_4ace07b13d7a4fffa6ebda5c76b23ee6.bindPopup(popup_cdc2da80ef484bd883762ceeaa2ac01c);
+
+            
+        
+    
+
+            var marker_574dec82c376400faf8d9e9ca6926982 = L.marker(
+                [49.84441000000004,24.02543000000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_f73808da53a24ca9b0c0767892eb69d6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_574dec82c376400faf8d9e9ca6926982.setIcon(icon_f73808da53a24ca9b0c0767892eb69d6);
+            
+    
+            var popup_abcf5608f1994206a0d607a61b32639d = L.popup({maxWidth: '300'});
+
+            
+                var html_35f04840579b45f3bcb820962d60edfd = $('<div id="html_35f04840579b45f3bcb820962d60edfd" style="width: 100.0%; height: 100.0%;">Why so serious?</div>')[0];
+                popup_abcf5608f1994206a0d607a61b32639d.setContent(html_35f04840579b45f3bcb820962d60edfd);
+            
+
+            marker_574dec82c376400faf8d9e9ca6926982.bindPopup(popup_abcf5608f1994206a0d607a61b32639d);
+
+            
+        
+    
+
+            var marker_b305afb8aded49f6be9e52eb7f6bed11 = L.marker(
+                [18.357000000000028,-77.10771999999997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_5ddef175ea6a4b88aa4723b1acc2d278 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b305afb8aded49f6be9e52eb7f6bed11.setIcon(icon_5ddef175ea6a4b88aa4723b1acc2d278);
+            
+    
+            var popup_48ba4f7c71ba4dcc81df1314ec1dde2f = L.popup({maxWidth: '300'});
+
+            
+                var html_f2fb14d28c0d481ebdea42414fe0ded0 = $('<div id="html_f2fb14d28c0d481ebdea42414fe0ded0" style="width: 100.0%; height: 100.0%;">Typical Girl</div>')[0];
+                popup_48ba4f7c71ba4dcc81df1314ec1dde2f.setContent(html_f2fb14d28c0d481ebdea42414fe0ded0);
+            
+
+            marker_b305afb8aded49f6be9e52eb7f6bed11.bindPopup(popup_48ba4f7c71ba4dcc81df1314ec1dde2f);
+
+            
+        
+    
+
+            var marker_5f3c1967edda46ec9e6cd85ed4469780 = L.marker(
+                [49.84441000000004,24.02543000000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_22e17b00cbde42d48dc9a791baa46976 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f3c1967edda46ec9e6cd85ed4469780.setIcon(icon_22e17b00cbde42d48dc9a791baa46976);
+            
+    
+            var popup_f2585ea8b26d4601a548fc007f46adf7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a3c2ef7970e54a59b054949546b09cdb = $('<div id="html_a3c2ef7970e54a59b054949546b09cdb" style="width: 100.0%; height: 100.0%;">Ей, Маріє</div>')[0];
+                popup_f2585ea8b26d4601a548fc007f46adf7.setContent(html_a3c2ef7970e54a59b054949546b09cdb);
+            
+
+            marker_5f3c1967edda46ec9e6cd85ed4469780.bindPopup(popup_f2585ea8b26d4601a548fc007f46adf7);
+
+            
+        
+    
+
+            var marker_c6da007489f5488086928a4f703d8897 = L.marker(
+                [49.84441000000004,24.02543000000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_abc8e97ddd7a4ef196f309464ef4a1aa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6da007489f5488086928a4f703d8897.setIcon(icon_abc8e97ddd7a4ef196f309464ef4a1aa);
+            
+    
+            var popup_02253178ca584533a0ba96c0cbc0c0d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4163245451b44acbd417ea7ab6e720e = $('<div id="html_d4163245451b44acbd417ea7ab6e720e" style="width: 100.0%; height: 100.0%;">Марія Кулик</div>')[0];
+                popup_02253178ca584533a0ba96c0cbc0c0d8.setContent(html_d4163245451b44acbd417ea7ab6e720e);
+            
+
+            marker_c6da007489f5488086928a4f703d8897.bindPopup(popup_02253178ca584533a0ba96c0cbc0c0d8);
+
+            
+        
+    
+
+            var marker_dc1705454ce244dc84a746d75a98b741 = L.marker(
+                [49.84376008050086,24.023810000000026],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_7957f52c648c4b63a0f4455f7257a8b6);
+            
+    
+
+                var icon_8a6d30e1e9384853a59515c4e71ee885 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dc1705454ce244dc84a746d75a98b741.setIcon(icon_8a6d30e1e9384853a59515c4e71ee885);
+            
+    
+            var popup_7ae6650e8f7e421ca1bcf49853b6a934 = L.popup({maxWidth: '300'});
+
+            
+                var html_7bc56c70f78e47b28253153d4164f03e = $('<div id="html_7bc56c70f78e47b28253153d4164f03e" style="width: 100.0%; height: 100.0%;">фешачка</div>')[0];
+                popup_7ae6650e8f7e421ca1bcf49853b6a934.setContent(html_7bc56c70f78e47b28253153d4164f03e);
+            
+
+            marker_dc1705454ce244dc84a746d75a98b741.bindPopup(popup_7ae6650e8f7e421ca1bcf49853b6a934);
+
+            
+        
+    
+            var layer_control_fd3827b0a23c49c58e544e0e4ed17690 = {
+                base_layers : { "openstreetmap" : tile_layer_8491514c0edd4a43a0393ebb239351c9, },
+                overlays : { "Pointers" : feature_group_7957f52c648c4b63a0f4455f7257a8b6, }
+                };
+            L.control.layers(
+                layer_control_fd3827b0a23c49c58e544e0e4ed17690.base_layers,
+                layer_control_fd3827b0a23c49c58e544e0e4ed17690.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_88ad1e3590774b14a8b2eb8c83d1e20a);
+        
+</script>
